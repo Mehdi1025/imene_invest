@@ -1,0 +1,185 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.reign-invest.com/#website",
+      "url": "https://www.reign-invest.com/",
+      "name": "M&B by Reign — Reign Invest",
+      "alternateName": "Reign Invest",
+      "description": "Investissement immobilier à Dubaï pour investisseurs francophones. Rendements 7-10%, Golden Visa, gestion locative.",
+      "inLanguage": "fr-FR",
+      "publisher": { "@id": "https://www.reign-invest.com/#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.reign-invest.com/#organization",
+      "name": "M&B by Reign",
+      "alternateName": ["Reign Invest", "MB by Reign"],
+      "url": "https://www.reign-invest.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.reign-invest.com/icon.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://www.reign-invest.com/assets/images/image-d71134b3.png",
+      "description": "Consultante immobilier et experte en expatriation à Dubaï. Accompagnement des investisseurs francophones de la sélection du bien à la gestion locative, en partenariat exclusif avec DRN Real Estate.",
+      "areaServed": {
+        "@type": "City",
+        "name": "Dubai",
+        "containedInPlace": {
+          "@type": "Country",
+          "name": "United Arab Emirates"
+        }
+      },
+      "knowsAbout": [
+        "Investissement immobilier Dubaï",
+        "Golden Visa",
+        "Gestion locative",
+        "Expatriation Dubaï",
+        "Immobilier off-plan",
+        "Dubai Marina",
+        "JVC",
+        "JLT",
+        "Palm Jumeirah",
+        "Downtown Dubai"
+      ]
+    },
+    {
+      "@type": "RealEstateAgent",
+      "@id": "https://www.reign-invest.com/#agent",
+      "name": "M&B by Reign",
+      "url": "https://www.reign-invest.com/",
+      "image": "https://www.reign-invest.com/assets/images/image-d71134b3.png",
+      "description": "Consultante immobilier et experte en expatriation à Dubaï pour investisseurs francophones.",
+      "areaServed": "Dubai",
+      "parentOrganization": { "@id": "https://www.reign-invest.com/#organization" },
+      "makesOffer": [
+        { "@id": "https://www.reign-invest.com/#service-real-estate" },
+        { "@id": "https://www.reign-invest.com/#service-gestion" }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.reign-invest.com/#service-real-estate",
+      "name": "Achat immobilier à Dubaï",
+      "description": "Achetez votre premier bien à Dubaï en toute sécurité. Sélection personnalisée, structuration juridique et achat sécurisé avec des promoteurs sérieux.",
+      "provider": { "@id": "https://www.reign-invest.com/#organization" },
+      "areaServed": "Dubai",
+      "serviceType": "Real Estate Investment Advisory"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.reign-invest.com/#service-gestion",
+      "name": "Gestion locative à Dubaï",
+      "description": "Gestion locative complète de votre bien à Dubaï depuis le monde entier. Mise en location, suivi et perception des loyers.",
+      "provider": { "@id": "https://www.reign-invest.com/#organization" },
+      "areaServed": "Dubai",
+      "serviceType": "Property Management"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.reign-invest.com/#zones",
+      "name": "Zones d'investissement recommandées à Dubaï",
+      "description": "Sélection exclusive de zones à demande locative prouvée pour 2026.",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Dubai Marina",
+          "description": "Blue chip de Dubaï. Rendement brut 6-8%. Entrée ≈ 300-800K €. Liquidité maximale."
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "JVC",
+          "description": "Meilleur ratio entrée/rendement. Rendement 7-9%. Entrée ≈ 170-490K €."
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Downtown Dubai",
+          "description": "Valeur refuge. Rendement 6-5%. Entrée ≈ 600K-2M €. Liquidité très forte."
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "JLT",
+          "description": "Meilleur rendement DLD Q1. Rendement 8,1%. Entrée ≈ 160-500K €."
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Dubai South",
+          "description": "Zone émergente. Appréciation +15-20% sur 24 mois. Entrée ≈ 150-300K €."
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Palm Jumeirah",
+          "description": "Ultra-premium. Golden Visa accessible. Entrée à partir de 1,5M €."
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://www.reign-invest.com/#process",
+      "name": "Notre process en 4 étapes pour investir à Dubaï",
+      "description": "Méthode structurée pour investir à Dubaï : analyse, sélection, achat sécurisé et gestion locative.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Appel découverte",
+          "text": "Comprendre votre budget, objectifs et horizon d'investissement lors d'un échange honnête sans pression."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Sélection personnalisée",
+          "text": "Shortlist de biens avec analyse de rendement, risques et projection sur 3/5 ans."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Structuration et achat sécurisé",
+          "text": "Connexion aux notaires, avocats et banques partenaires pour un montage juridique et fiscal optimisé."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Mise en location et suivi",
+          "text": "Gestion locative locale, perception des loyers et suivi régulier de votre investissement."
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.reign-invest.com/#webpage",
+      "url": "https://www.reign-invest.com/",
+      "name": "Investir à Dubaï | M&B by Reign — Consultante Immobilier Francophone",
+      "description": "M&B by Reign accompagne les investisseurs francophones dans l'acquisition de biens à Dubaï — de la sélection du bien jusqu'à la gestion locative, en partenariat exclusif avec DRN Real Estate.",
+      "isPartOf": { "@id": "https://www.reign-invest.com/#website" },
+      "about": { "@id": "https://www.reign-invest.com/#organization" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.reign-invest.com/assets/images/image-d71134b3.png"
+      },
+      "inLanguage": "fr-FR",
+      "breadcrumb": { "@id": "https://www.reign-invest.com/#breadcrumb" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.reign-invest.com/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.reign-invest.com/"
+        }
+      ]
+    }
+  ]
+}

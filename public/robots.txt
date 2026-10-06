@@ -1,0 +1,11 @@
+# https://www.reign-invest.com/robots.txt
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /assets/images/
+
+Sitemap: https://www.reign-invest.com/sitemap.xml

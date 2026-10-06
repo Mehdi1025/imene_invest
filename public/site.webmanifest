@@ -1,0 +1,33 @@
+{
+  "id": "https://www.reign-invest.com/",
+  "name": "M&B by Reign — Investir à Dubaï",
+  "short_name": "Reign Invest",
+  "description": "Investissement immobilier à Dubaï pour investisseurs francophones. Golden Visa, rendements 7-10%, gestion locative. Partenaire DRN Real Estate.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FDFBFF",
+  "theme_color": "#3D0E3D",
+  "lang": "fr-FR",
+  "orientation": "portrait-primary",
+  "categories": ["business", "finance", "real estate"],
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
